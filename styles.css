@@ -18,10 +18,6 @@ header{
     padding: 1rem;
 }
 
-main{
-    flex-grow: 1;
-}
-
 #container img {
     display: flex;
     margin: 0 auto; 
@@ -49,6 +45,7 @@ footer{
         display: flex;
         flex-direction: row;
     }
+
     #container img {
         margin-right: 2rem; 
         max-width: 300px;
@@ -64,6 +61,9 @@ footer{
     }
     h1 {
         padding: 1rem;
+    }
+    main{
+        flex-grow: 1;
     }
 }
 
@@ -82,8 +82,7 @@ footer{
     #container{
         display: flex;
         flex-direction: row;
-        margin: 0
-        ;
+        margin: 0;
     }
     header {
         display: flex;
@@ -94,4 +93,5 @@ footer{
     h1 {
         padding: 1rem;
     }
+    
  }
